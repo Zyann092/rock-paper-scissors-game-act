@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocks Paper & Scissors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <script defer src="assets/script/main.js"></script>
+    <div class="selections">
+        <h1 class="game-title">Rocks Paper & Scissors</h1>
+        <div class="score-container">
+            <div id="playerScore" class="score-display">
+                <h1 class="score-tag player-s">Player:</h1>
+                <span id="pScore" class="score">0</span>
+            </div>
+            <div id="botScore" class="score-display">
+                <h1 class="score-tag bot-s">Bot:</h1>
+                <span id="bScore" class="score">0</span>
+            </div>
+            <div id="drawScore" class="score-display">
+                <h1 class="score-tag draw-s">Draw:</h1>
+                <span id="dScore" class="score">0</span>
+            </div>
+        </div>
+        <h2 class="choose">Choose your move:</h2>
+        <div class="choices">
+            <button id="rockBtnPlyr" class="player-choices rock-player">
+                <i class="fa-solid fa-hand-back-fist fa-2xl" style="color: #000000;"></i>
+            </button>
+            <button id="paperBtnPlyr" class="player-choices paper-player">
+                <i class="fa-solid fa-hand fa-2xl" style="color: #000000;"></i>
+            </button>
+            <button id="scissorsBtnPlyr" class="player-choices scissor-player">
+                <i class="fa-solid fa-hand-scissors fa-rotate-90 fa-2xl" style="color: #000000;"></i>
+            </button>
+        </div>
+    </div>
+    <div class="result-title-container">
+        <h1 id="resultTitle" class="result-title"></h1>
+    </div>
+    <div class="results">
+        <div class="player-result" id="playerResult">
+            <div class="player">
+                Player
+            </div>
+            <div id="playerPickRock" class="player-pick-rock player-pick">
+                <i class="fa-solid fa-hand-back-fist fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div id="playerPickPaper" class="player-pick-paper player-pick">
+                <i class="fa-solid fa-hand fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div id="playerPickScissors" class="player-pick-scissors player-pick">
+                <i class="fa-solid fa-hand-scissors fa-rotate-90 fa-2xl" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div class="bot-result" id="botResult">
+            <div class="bot">
+                Bot
+            </div>
+            <div id="botPickRock" class="bot-pick-rock bot-pick">
+                <i class="fa-solid fa-hand-back-fist fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div id="botPickPaper" class="bot-pick-paper bot-pick">
+                <i class="fa-solid fa-hand fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div id="botPickScissors" class="bot-pick-scissors bot-pick">
+                <i class="fa-solid fa-hand-scissors fa-rotate-90 fa-2xl" style="color: #000000;"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/c5fcd4a5ac.js" crossorigin="anonymous"></script>
+</body>
+</html>
