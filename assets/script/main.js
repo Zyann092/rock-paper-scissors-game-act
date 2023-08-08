@@ -17,7 +17,6 @@ let botPickPaper = document.querySelector("#botPickPaper")
 let botPickScissors = document.querySelector("#botPickScissors")
 
 // score
-let invisibleNumber = document.querySelector("#invisibleNumber")
 let pScore = document.querySelector("#pScore")
 let bScore = document.querySelector("#bScore")
 let dScore = document.querySelector("#dScore")
